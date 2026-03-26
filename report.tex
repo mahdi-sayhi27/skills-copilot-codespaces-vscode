@@ -1,0 +1,199 @@
+\documentclass[12pt,a4paper]{article}
+
+% ================= PACKAGES =================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{mdframed}
+
+\geometry{top=1.3cm,bottom=1.5cm,left=2cm,right=2cm}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% ================= DOCUMENT =================
+\begin{document}
+
+% ================= COVER =================
+\begin{titlepage}
+\centering
+
+{\bfseries\LARGE Republic of Tunisia\par}
+\vspace{0.10cm}
+\includegraphics[width=1.5cm]{tunisia-logo.png}\par
+\vspace{0.15cm}
+
+{\large MINISTRY OF HIGHER EDUCATION\par}
+\vspace{0.10cm}
+{\large AND SCIENTIFIC RESEARCH\par}
+\vspace{0.12cm}
+{\Large ***\par}
+\vspace{0.18cm}
+
+{\Large GENERAL DIRECTORATE OF TECHNOLOGICAL STUDIES\par}
+\vspace{0.15cm}
+{\bfseries\fontsize{20}{22}\selectfont Higher Institute of Technological Studies of Siliana\par}
+
+\vspace{0.75cm}
+\includegraphics[width=2.35cm]{iset-siliana-logo.jpg}\par
+\vspace{0.30cm}
+
+{\large Department: Information Technology\par}
+
+\vspace{0.75cm}
+{\color{blue}\rule{0.84\textwidth}{1.7pt}}\par
+\vspace{0.15cm}
+
+{\bfseries\fontsize{16}{18}\selectfont End-of-Studies Project Report\par}
+\vspace{0.32cm}
+
+{\bfseries\fontsize{20}{23}\selectfont Study and Development of\par}
+\vspace{0.22cm}
+
+{\bfseries\fontsize{20}{23}\selectfont a smart local trainings platform : ADVANCIA\par}
+\vspace{0.20cm}
+
+\includegraphics[width=5.5cm]{company-logo.png}\par
+
+\vspace{0.32cm}
+{\color{blue}\rule{0.84\textwidth}{1.7pt}}\par
+
+\vspace{0.78cm}
+\begin{flushleft}
+{\bfseries\Large Prepared by:} {\large Mahdi Sayhi and Istabrak Ben Khmays}\par
+\vspace{0.22cm}
+{\bfseries\Large Company:} {\large NstGroupe}\par
+\vspace{0.22cm}
+{\bfseries\Large Academic Supervisor:} {\large Mr. AMEUR ZAYDOUN}\par
+\vspace{0.22cm}
+{\bfseries\Large Company Supervisor:} {\large Mr. RAMZY SASSI and Mr. LOKMEN}\par
+\end{flushleft}
+
+\vfill
+{\bfseries\fontsize{16}{18}\selectfont Academic Year: 2025/2026\par}
+\vspace{0.28cm}
+
+\rule{\textwidth}{0.4pt}\par
+\vspace{0.05cm}
+
+\begin{minipage}[t]{0.58\textwidth}
+\raggedright\normalsize ISET Siliana-ElmadinaEljadida 6100
+\end{minipage}%
+\begin{minipage}[t]{0.42\textwidth}
+\raggedleft\normalsize Siliana Tel. (+216) 78874600
+\end{minipage}
+
+\end{titlepage}
+
+% ================= ACKNOWLEDGEMENT =================
+\newpage
+
+\begin{center}
+{\bfseries\LARGE Acknowledgements\par}
+\end{center}
+
+\vspace{1cm}
+
+\begin{onehalfspace}
+\fontsize{14}{17}\selectfont
+
+This work is the result of several months of effort, dedication, and the support of many individuals to whom we owe our deepest gratitude.
+
+First and foremost, we would like to express our sincere thanks to our academic supervisor, \textbf{Mr. AMEUR ZAYDOUN}, for his guidance, valuable advice, and continuous support throughout this project.
+
+We are equally grateful to our company supervisors, \textbf{Mr. RAMZY SASSI} and \textbf{Mr. LOKMEN}, for their mentorship, technical expertise, and for providing us with the opportunity to work on this meaningful project at \textbf{NstGroupe}.
+
+We extend our appreciation to the faculty and staff of the \textbf{Higher Institute of Technological Studies of Siliana} for their unwavering support and for providing us with the knowledge and resources necessary to complete this work.
+
+Finally, we would like to thank our families and friends for their patience, encouragement, and belief in us throughout our academic journey.
+
+To all of you, thank you.
+
+\end{onehalfspace}
+
+\vfill
+\begin{flushright}
+{\large\bfseries MAHDI SAYHI \& ISTABRAK BEN KHMAYS}
+\end{flushright}
+
+% ================= DEDICATION 1 =================
+\newpage
+
+\begin{tikzpicture}[remember picture, overlay]
+\draw[black, line width=1.5pt]
+([xshift=1.5cm,yshift=-1.5cm]current page.north west) --
+([xshift=-1.5cm,yshift=-1.5cm]current page.north east);
+\end{tikzpicture}
+
+\vspace*{1cm}
+
+\begin{center}
+{\bfseries\fontsize{22}{26}\selectfont Dedications}
+\end{center}
+
+\vspace{1cm}
+
+\begin{onehalfspace}
+\fontsize{13}{16}\selectfont
+
+I dedicate this work to my beloved parents, whose sacrifices, love, and unwavering support have been the foundation of all my achievements. Your encouragement has been my greatest strength.
+
+To my siblings, for their patience and understanding during the long hours of work.
+
+To my teachers and mentors, who have shaped my academic journey and inspired me to pursue excellence.
+
+To my friends and colleagues, who have been there through the challenges and successes, making this journey memorable.
+
+And finally, to everyone who believed in me and supported me in any way throughout this project.
+
+\end{onehalfspace}
+
+\vfill
+\begin{flushright}
+{\large\bfseries Mahdi Sayhi}
+\end{flushright}
+
+% ================= DEDICATION 2 =================
+\newpage
+
+\begin{tikzpicture}[remember picture, overlay]
+\draw[black, line width=1.5pt]
+([xshift=1.5cm,yshift=-1.5cm]current page.north west) --
+([xshift=-1.5cm,yshift=-1.5cm]current page.north east);
+\end{tikzpicture}
+
+\vspace*{1cm}
+
+\begin{center}
+{\bfseries\fontsize{22}{26}\selectfont Dedications}
+\end{center}
+
+\vspace{1cm}
+
+\begin{onehalfspace}
+\fontsize{13}{16}\selectfont
+
+I dedicate this work first and foremost to my beloved family, whose unconditional love and support have been my constant source of motivation.
+
+To my parents, who have sacrificed so much to provide me with the best education and opportunities. Your faith in me has been my guiding light.
+
+To my siblings, for their encouragement and for standing by me through every step of this journey.
+
+To my teachers and professors, who have imparted invaluable knowledge and wisdom that will stay with me throughout my career.
+
+To my friends and colleagues, for their companionship, support, and for making this academic experience enriching and memorable.
+
+Thank you all for being part of my success.
+
+\end{onehalfspace}
+
+\vfill
+\begin{flushright}
+{\large\bfseries Istabrak Ben Khmays}
+\end{flushright}
+
+\end{document}
